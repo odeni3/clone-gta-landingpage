@@ -14,7 +14,7 @@ const HeaderClassic = () => {
             <ButtonHeader name="GTA+"></ButtonHeader>
             <ButtonHeader name="Community ▼"></ButtonHeader>
             <ButtonHeader name="Support ⇲"></ButtonHeader>
-            <ButtonClassic name="BUY NOW"></ButtonClassic>
+            <ButtonClassic className="buttonClassic" name="BUY NOW"></ButtonClassic>
             <img className="searchIcon"src="https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/902006563577748c7d58ac9c2bf5e6df.svg" alt="iconSearchHeader"></img>
             <img className="userIcon"src="https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/a29e26aa160e7be7e845708c335b3c39.svg" alt="iconUserHeader"></img>
         </div>

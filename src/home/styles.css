@@ -7,8 +7,8 @@
     width: 10rem;
     height: 9rem;
     position: absolute;
-    top: 35%;
-    left: 10%;
+    top: 33%;
+    left: 11%;
     transform: translate(-50%, -50%);
 }
 
@@ -16,9 +16,98 @@
     width: 13rem;
     height: 9rem;
     position: absolute;
-    top: 35%;
-    left: 21%;
+    top: 33%;
+    left: 22%;
     transform: translate(-50%, -50%);
+}
+
+.slogan{
+    width: 35rem;
+    height: 9rem;
+    position: absolute;
+    top: 59%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.sloganButtons{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 76.5%;
+    left: 4.5%;
+}
+
+.sloganh1{
+    max-width: 29rem;
+    font-weight: 1000;
+    font-family: 'ChaletComprimeCologneSixty', sans-serif;
+    font-size: 2.1rem;
+    letter-spacing: -2px;
+    transform: scaleY(1.5);
+}
+
+.bigButton1 {
+    display: flex;
+    border: 2.5px solid white;
+    width: 21.2rem; 
+    border-radius: 0.3rem;
+    background-color: transparent;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    height: 5rem;
+    font-family: 'ChaletComprimeCologneSixty', sans-serif;
+    font-weight: 800;
+    margin-top: 1.5rem;
+    margin-bottom: 1.2rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    letter-spacing: -2px;
+}
+
+.bigButton2 {
+    display: flex;
+    border: 2.5px solid white;
+    width: 14rem; 
+    border-radius: 0.3rem;
+    background-color: transparent;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    height: 5rem;
+    font-family: 'ChaletComprimeCologneSixty', sans-serif;
+    font-weight: 800;
+    margin-top: 1.5rem;
+    margin-bottom: 1.2rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    letter-spacing: -2px;
+}
+
+.bigButton1:hover{
+    background-color: white;
+    color: black;
+    transition: background-color 0.4s ease;
+}
+.bigButton2:hover{
+    background-color: white;
+    color: black;
+    transition: background-color 0.4s ease;
+}
+
+
+.sloganh3{
+    max-width: 35rem;
+    font-family: 'ChaletComprimeCologneSixty', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 200;
+    letter-spacing: 1px;
 }
 
 .wallpaperContainer {

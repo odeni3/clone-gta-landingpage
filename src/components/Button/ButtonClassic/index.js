@@ -1,8 +1,8 @@
 import "./styles.css"
 
-const ButtonClassic = ({name}) => {
+const ButtonClassic = ({name , className}) => {
     return(
-        <button className="buttonClassic">{name}</button>
+        <button className={className}>{name}</button>
     )
 }
 

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'ChaletComprimeCologneSix';
+    src: url('./ChaletComprimeCologneSix.ttf') format('truetype');
+  }
+  
+  body {
+    font-family: 'ChaletComprimeCologneSix', sans-serif;
+  }
