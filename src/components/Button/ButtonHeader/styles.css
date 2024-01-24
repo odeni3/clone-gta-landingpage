@@ -1,0 +1,22 @@
+.buttonHeader {
+    display: flex;
+    width: 8rem;
+    height: 5.4rem;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 750;
+    border-bottom: 0.15rem solid transparent;
+    transition: border-bottom 0.4s ease;
+    padding-left: -3rem;
+    cursor: pointer;
+}
+
+.buttonHeader:hover{
+    border-color: white;
+}
+

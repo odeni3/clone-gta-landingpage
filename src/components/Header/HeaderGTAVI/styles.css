@@ -1,0 +1,16 @@
+.headergtavi {
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    background: rgba(58, 28, 113, 1); /* Cor com 80% de opacidade */
+    background: -webkit-linear-gradient(to right, rgb(54, 26, 106), rgb(206, 104, 114), rgb(237, 161, 110));
+    background: linear-gradient(to right, rgb(53, 26, 104), rgb(121, 67, 129), rgb(241, 164, 112));
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 1000;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
