@@ -1,13 +1,10 @@
-import React, { useRef } from 'react';
 import "./styles.css"
 import '../fonts/ChaletComprime CologneSixty.ttf'
 import { HeaderClassic } from "../components/Header/HeaderClassic";
 import { HeaderGTAVI } from "../components/Header/HeaderGTAVI";
 import { ButtonClassic } from "../components/Button/ButtonClassic";
 import { register } from 'swiper/element/bundle';
-import SwiperCore  from "swiper";
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-import { Swiper, SwiperSlide, useSwiper } from "swiper/react"
+import { Swiper, SwiperSlide } from "swiper/react"
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';

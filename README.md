@@ -1,1 +1,1 @@
-clone of the Grand Theft Auto V landing page using React.
+clone of the Grand Theft Auto V landing page using React and SwiperJS.
